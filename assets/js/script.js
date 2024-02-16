@@ -45,7 +45,7 @@ function checkAnswer() {
     let isCorrect = userAnswer === calculatedAnswer[0];
 
     if (isCorrect) {
-        alert("Hey! You go it right! :D");
+        alert("You got it right! Great job!");
     } else {
         alert(`Awwww...You answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
     }
